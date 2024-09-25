@@ -4,7 +4,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
  
 # link for extract html data
-# Making a GET request 
+# Making a GET request for user
      
 def getdata(url):
     r=requests.get(url)
